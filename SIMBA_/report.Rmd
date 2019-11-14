@@ -1,0 +1,46 @@
+---
+title: "Relatório de previsão"
+author: "Instituto Português do Mar e da Atmosfera"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document: default
+params:
+  B: NA
+  F: NA
+  p: NA
+  t: NA
+  A: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Aviso:
+
+Este relatório foi gerado automaticamente pelo sistema SIMBA.
+
+## Biotoxinas Marinhas:
+
+```{r,echo=FALSE}
+    params$B
+```
+
+## Fitoplâncton:
+
+```{r,echo=FALSE}
+   params$F
+```
+
+## Biotoxinas Marinhas com 4 semanas previstas:
+Modelo utilizado: 
+
+```{r,echo=FALSE}
+params$t
+par(pin=c(4, 2))
+params$p
+
+params$A
+
+
+```

@@ -1,0 +1,13 @@
+name: SIMBA
+title: SIMBA
+username:
+account: ipma
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1319549
+bundleId: 2566974
+url: https://ipma.shinyapps.io/SIMBA/
+when: 1572995444.94614
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Notas.txt|plotTest.R|result.xlsx|sCRIP.R|untitled.R|DataForTest/.DS_Store|DataForTest/a-biotoxinas-year2015 .xlsx|DataForTest/a-biotoxinas-year2015.csv|DataForTest/a-fito-year2015.xlsx|DataForTest/MTS.xlsx
